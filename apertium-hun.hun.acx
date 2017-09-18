@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<analysis-chars>
+<!-- Allow some common double acute repls -->
+  <char value="ő">
+    <equiv-char value="õ"/>
+  </char>
+  <char value="ű">
+    <equiv-char value="ũ"/>
+  </char>
+</analysis-chars>

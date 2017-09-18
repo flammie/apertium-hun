@@ -1,0 +1,7 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-hun
+
+Name: apertium-hun
+Description: Hunite-state morphological transducer and constraint grammar for Hunnish
+Version: @VERSION@

@@ -1,0 +1,1729 @@
+<dictionary>
+  <alphabet>AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZaábcdeéfghiíjklmnoóöőpqrstuúüűvwxyz</alphabet>
+ 
+  <sdefs>
+    <sdef n="n"              c="Noun"/>
+    <sdef n="vbser"          c="Verb 'to be'"/>
+    <sdef n="vblex"          c="Verb 'or not to be'"/>
+    <sdef n="np"             c="Proper noun"/>
+    <sdef n="adj"            c="Adjective"/>
+    <sdef n="adv"            c="Adverb"/>
+    <sdef n="post"           c="Postposition"/>
+    <sdef n="det"            c="Determiner"/>
+    <sdef n="prn"            c="Pronoun"/>
+    <sdef n="ij"             c="Interjection"/>
+    <sdef n="cnjcoo"         c="Coordinating conjunction"/>
+    <sdef n="cnjadv"         c="Adverbial conjunction"/>
+    <sdef n="num"            c="numeral"/>
+
+    <sdef n="mod"            c="modal stuff"/>
+
+    <sdef n="f"              c="Feminine"/>
+    <sdef n="m"              c="Masculine"/>
+    <sdef n="mf"             c="Masculine / feminine"/>
+
+    <sdef n="sg"             c="Singular"/>
+    <sdef n="pl"             c="Plural"/>
+
+    <sdef n="p1"             c="1. person"/>
+    <sdef n="p2"             c="2. person"/>
+    <sdef n="p3"             c="3. person"/>
+
+    <sdef n="px1ss"          c="1. person singular possessive (singular)"/>
+    <sdef n="px2ss"          c="2. person singular possessive (singular)"/>
+    <sdef n="px3ss"          c="3. person singular possessive (singular)"/>
+    <sdef n="px1sp"          c="1. person singular possessive (plural)"/>
+    <sdef n="px2sp"          c="2. person singular possessive (plural)"/>
+    <sdef n="px3sp"          c="3. person singular possessive (plural)"/>
+    <sdef n="px1ps"          c="1. person plural possessive (singular)"/>
+    <sdef n="px2ps"          c="2. person plural possessive (singular)"/>
+    <sdef n="px3ps"          c="3. person plural possessive (singular)"/>
+    <sdef n="px1pp"          c="1. person plural possessive (plural)"/>
+    <sdef n="px2pp"          c="2. person plural possessive (plural)"/>
+    <sdef n="px3pp"          c="3. person plural possessive (plural)"/>
+
+    <sdef n="inf"            c="Infinitive"/>
+    <sdef n="pp"             c="Past participle"/>
+    <sdef n="pri"           c="Present tense"/>
+    <sdef n="past"           c="Past tense"/>
+    <sdef n="pot"            c="Potential form"/>
+    <sdef n="subj"           c="Sub jontif"/>
+
+    <sdef n="qst"            c="question"/>
+
+    <sdef n="ant"            c="Anthroponym"/>
+
+    <sdef n="itg"            c="Interrogative"/>
+    <sdef n="ind"            c="Indefinite"/>
+    <sdef n="pers"           c="Personal"/>
+    <sdef n="def"            c="Definite"/>
+
+    <sdef n="nom"            c="Nominative"/>
+    <sdef n="acc"            c="Accusative"/>
+    <sdef n="dat"            c="Dative"/>
+    
+    <sdef n="ine"            c="Inessive"/>
+    <sdef n="ill"            c="Illative"/>
+    <sdef n="all"            c="Allative"/>
+    <sdef n="ses"            c="Superessive"/>
+    <sdef n="ade"            c="Adessive"/>
+    <sdef n="sub"           c="Sublative"/>
+    <sdef n="ela"            c="Elative"/>
+    <sdef n="dela"           c="Delative"/>
+    <sdef n="abl"            c="Ablative"/>
+
+    <sdef n="ins"            c="Instrumental"/>
+    <sdef n="com"            c="Comitative"/>
+    <sdef n="cau"            c="Causal"/>
+    <sdef n="fin"            c="Final"/>
+    <sdef n="tra"           c="Translative"/>
+    <sdef n="term"           c="Terminative"/>
+    <sdef n="ess1"         c="Essive-formal"/>
+    <sdef n="ess2"         c="Essive-modal"/>
+    
+    <sdef n="comp"           c="Comparative"/>
+    <sdef n="sup"            c="Superlative"/>
+
+    <sdef n="foo"            c="I dunno but I had to add some tag"/>
+  </sdefs>
+
+  <pardefs>
+
+    <!-- SECTION: Conjunctions -->
+
+    <pardef n="és__cnjcoo">
+      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
+    <pardef n="ha__cnjadv">
+      <e><p><l></l><r><s n="cnjadv"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Postpositions -->
+
+    <pardef n="előtt__post">
+      <e><p><l></l><r><s n="post"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Determiners -->
+
+    <pardef n="/a__det">
+      <e r="LR"><p><l>a</l><r>a<s n="det"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>az</l><r>a<s n="det"/><s n="def"/></r></p></e>
+      <e r="RL"><p><l><a/>a</l><r>a<s n="det"/><s n="def"/></r></p></e>
+    </pardef>
+
+    <pardef n="egy__det">
+      <e><p><l></l><r><s n="det"/><s n="ind"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Pronouns -->
+
+    <pardef n="/én__prn">
+      <e><p><l>én</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>engem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>tőlem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>nálam</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ade"/></r></p></e>
+      <e><p><l>hozzám</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="all"/></r></p></e>
+      <e><p><l>nekem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>velem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>értem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="cau"/></r></p></e>
+      <e><p><l>rólam</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dela"/></r></p></e>
+      <e><p><l>belőlem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ela"/></r></p></e>
+      <e><p><l>belém</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ill"/></r></p></e>
+      <e><p><l>bennem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ine"/></r></p></e>
+      <e><p><l>rajtam</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ses"/></r></p></e>
+      <e><p><l>rám</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="sub"/></r></p></e>
+    </pardef>
+
+    <pardef n="/te__prn">
+      <e><p><l>te</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>téged</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>tőled</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>nálad</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ade"/></r></p></e>
+      <e><p><l>hozzád</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="all"/></r></p></e>
+      <e><p><l>neked</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>veled</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>érted</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="cau"/></r></p></e>
+      <e><p><l>rólad</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dela"/></r></p></e>
+      <e><p><l>belőled</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ela"/></r></p></e>
+      <e><p><l>beléd</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ill"/></r></p></e>
+      <e><p><l>benned</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ine"/></r></p></e>
+      <e><p><l>rajtad</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ses"/></r></p></e>
+      <e><p><l>rád</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="sub"/></r></p></e>
+    </pardef>
+
+    <pardef n="/ő__prn">
+      <e><p><l>ő</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>őt</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>tőle</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>nála</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="ade"/></r></p></e>
+      <e><p><l>hozzá</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="all"/></r></p></e>
+      <e><p><l>neki</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>vele</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>érte</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="cau"/></r></p></e>
+      <e><p><l>róla</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dela"/></r></p></e>
+      <e><p><l>belőle</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="ela"/></r></p></e>
+      <e><p><l>belé</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="ill"/></r></p></e>
+      <e><p><l>benne</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="ine"/></r></p></e>
+      <e><p><l>rajta</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="ses"/></r></p></e>
+      <e><p><l>rá</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="sub"/></r></p></e>
+    </pardef>
+
+    <pardef n="/mi__prn">
+      <e><p><l>mi</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>minket</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>tőlünk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>nálunk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="ade"/></r></p></e>
+      <e><p><l>hozzánk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="all"/></r></p></e>
+      <e><p><l>nekünk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>velünk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>értünk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="cau"/></r></p></e>
+      <e><p><l>rólunk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="dela"/></r></p></e>
+      <e><p><l>belőlünk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="ela"/></r></p></e>
+      <e><p><l>belénk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="ill"/></r></p></e>
+      <e><p><l>bennünk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="ine"/></r></p></e>
+      <e><p><l>rajtunk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="ses"/></r></p></e>
+      <e><p><l>ránk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="sub"/></r></p></e>
+    </pardef>
+
+    <pardef n="/ti__prn">
+      <e><p><l>ti</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>titeket</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>tőletej</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>nálatok</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ade"/></r></p></e>
+      <e><p><l>hozzátok</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="all"/></r></p></e>
+      <e><p><l>nektek</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>veletek</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>értetek</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="cau"/></r></p></e>
+      <e><p><l>rólatok</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="dela"/></r></p></e>
+      <e><p><l>belőletek</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ela"/></r></p></e>
+      <e><p><l>belétek</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ill"/></r></p></e>
+      <e><p><l>bennetek</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ine"/></r></p></e>
+      <e><p><l>rajtatok</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ses"/></r></p></e>
+      <e><p><l>rátok</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="sub"/></r></p></e>
+    </pardef>
+
+    <pardef n="/ők__prn">
+      <e><p><l>ők</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>őket</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>tőlük</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>náluk</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ade"/></r></p></e>
+      <e><p><l>hozzájuk</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="all"/></r></p></e>
+      <e><p><l>nekik</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>velük</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>értük</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="cau"/></r></p></e>
+      <e><p><l>róluk</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dela"/></r></p></e>
+      <e><p><l>belőlük</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ela"/></r></p></e>
+      <e><p><l>beléjük</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ill"/></r></p></e>
+      <e><p><l>bennük</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ine"/></r></p></e>
+      <e><p><l>rajtuk</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ses"/></r></p></e>
+      <e><p><l>rájuk</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="sub"/></r></p></e>
+    </pardef>
+
+    <pardef n="a/z__prn">
+        <e><p><l>z</l><r>z<s n="prn"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>zt</l><r>z<s n="prn"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>bban</l><r>z<s n="prn"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hhoz</l><r>z<s n="prn"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>bba</l><r>z<s n="prn"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nnal</l><r>z<s n="prn"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>zon</l><r>z<s n="prn"/><s n="sg"/><s n="ses"/></r></p></e>
+    </pardef>
+
+    <pardef n="e/z__prn">
+        <e><p><l>z</l><r>z<s n="prn"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>zt</l><r>z<s n="prn"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>bben</l><r>z<s n="prn"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hhez</l><r>z<s n="prn"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>bbe</l><r>z<s n="prn"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nnel</l><r>z<s n="prn"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>zen</l><r>z<s n="prn"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>kkor</l><r>kkor<s n="prn"/></r></p></e>
+    </pardef>
+    
+    <pardef n="valami__prn">
+        <e><p><l></l><r><s n="prn"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>t</l><r><s n="prn"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>ben</l><r><s n="prn"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hez</l><r><s n="prn"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>be</l><r><s n="prn"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nél</l><r><s n="prn"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>n</l><r><s n="prn"/><s n="sg"/><s n="ses"/></r></p></e>
+    </pardef>
+    
+    <!-- SECTION: Numerals -->
+    <pardef n="két__num">
+        <e><p><l/><r><s n="num"/><s n="sg"/><s n="nom"/></r></p></e>
+    </pardef>
+
+
+    <!-- SECTION: Nouns -->
+
+
+    <!-- regular a o u -->
+    <pardef n="ház__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>at</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>zal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>a</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>uk</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="szem__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>et</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nek</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>mel</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ben</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hez</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>be</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>en</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>e</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>ünk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>ük</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="bab__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ot</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>bal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>ja</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>juk</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="banán__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>t</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>nal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>ja</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>juk</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="ajt/ó__n">
+        <e><p><l>ó</l><r>ó<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ót</l><r>ó<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>ónak</l><r>ó<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>óval</l><r>ó<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>óban</l><r>ó<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>óhoz</l><r>ó<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>óba</l><r>ó<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>ónál</l><r>ó<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>ón</l><r>ó<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>aja</l><r>ó<s n="px3ss"/></r></p></e>
+      <e><p><l>ónk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>ajuk</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="adó__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>t</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>val</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>n</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>ja</l><r>ó<s n="px3ss"/></r></p></e>
+      <e><p><l>nk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>juk</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="asztal__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>t</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>lal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>a</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>uk</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="alkohol__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>t</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>lal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>ja</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>juk</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+     <pardef n="kérdés__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>t</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nek</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>sel</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ben</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hez</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>be</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>en</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>e</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>ünk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>ük</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <!-- cs ccs -->
+    <pardef n="á/cs__n">
+        <e><p><l>cs</l><r>cs<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>csot</l><r>cs<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>csnak</l><r>cs<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ccsal</l><r>cs<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>csban</l><r>cs<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>cshoz</l><r>cs<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>csba</l><r>cs<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>csnál</l><r>cs<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>cson</l><r>cs<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>csa</l><r>cs<s n="px3ss"/></r></p></e>
+      <e><p><l>csunk</l><r>cs<s n="px1ps"/></r></p></e>
+      <e><p><l>csuk</l><r>cs<s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <!-- gy ggy -->
+    <pardef n="a/gy__n">
+        <e><p><l>gy</l><r>gy<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>gyat</l><r>gy<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>gynak</l><r>gy<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ggyal</l><r>gy<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>gyban</l><r>gy<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>gyhoz</l><r>gy<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>gyba</l><r>gy<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>gynál</l><r>gy<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>gyon</l><r>gy<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>gya</l><r>gy<s n="px3ss"/></r></p></e>
+      <e><p><l>gyunk</l><r>gy<s n="px1ps"/></r></p></e>
+      <e><p><l>gyuk</l><r>gy<s n="px3ps"/></r></p></e>
+    </pardef>
+    
+     <!-- ly lly -->
+    <pardef n="akadá/ly__n">
+        <e><p><l>ly</l><r>ly<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>lyt</l><r>ly<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>lynak</l><r>ly<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>llyal</l><r>ly<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>lyban</l><r>ly<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>lyhoz</l><r>ly<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>lyba</l><r>ly<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>lynál</l><r>ly<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>lyon</l><r>ly<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>lya</l><r>ly<s n="px3ss"/></r></p></e>
+      <e><p><l>lyunk</l><r>ly<s n="px1ps"/></r></p></e>
+      <e><p><l>lyuk</l><r>ly<s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <!-- ny nny -->
+    <pardef n="ara/ny__n">
+        <e><p><l>ny</l><r>ny<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>nyat</l><r>ny<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nynak</l><r>ny<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>nnyal</l><r>ny<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>nyban</l><r>ny<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>nyhoz</l><r>ny<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>nyba</l><r>ny<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nynál</l><r>ny<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>nyon</l><r>ny<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>nya</l><r>ny<s n="px3ss"/></r></p></e>
+      <e><p><l>nyunk</l><r>ny<s n="px1ps"/></r></p></e>
+      <e><p><l>nyuk</l><r>ny<s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="ablak__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ot</l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>kal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>a</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>uk</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="bank__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ot</l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>kal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>ja</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>juk</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+     <pardef n="ár/ok__n">
+        <e><p><l>ok</l><r>ok<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>kot</l><r>ok<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>oknak</l><r>ok<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>okkal</l><r>ok<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>okban</l><r>ok<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>okhoz</l><r>ok<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>okba</l><r>ok<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>oknál</l><r>ok<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>kon</l><r>ok<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>ka</l><r>ok<s n="px3ss"/></r></p></e>
+      <e><p><l>kunk</l><r>ok<s n="px1ps"/></r></p></e>
+      <e><p><l>kuk</l><r>ok<s n="px3ps"/></r></p></e>
+    </pardef>
+
+    <pardef n="hang__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ot</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>gal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>ja</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>juk</l><r><s n="px3ps"/></r></p></e>
+  </pardef>
+  
+  <pardef n="ország__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ot</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>gal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>a</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>uk</l><r><s n="px3ps"/></r></p></e>
+  </pardef>
+  
+  <pardef n="ág__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>at</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>gal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>a</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>uk</l><r><s n="px3ps"/></r></p></e>
+  </pardef>
+  
+   <pardef n="bélyeg__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>et</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nek</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>gel</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ben</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hez</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>be</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>en</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>e</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>ünk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>ük</l><r><s n="px3ps"/></r></p></e>
+  </pardef>
+  
+  <pardef n="adat__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ot</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>tal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>a</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>uk</l><r><s n="px3ps"/></r></p></e>
+  </pardef>
+  
+  <pardef n="pont__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ot</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>tal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>ja</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>juk</l><r><s n="px3ps"/></r></p></e>
+  </pardef>
+  
+    <!-- sz ssz -->
+    <pardef n="vála/sz__n">
+        <e><p><l>sz</l><r>sz<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>szt</l><r>sz<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>sznak</l><r>sz<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>sszal</l><r>sz<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>szban</l><r>sz<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>szhoz</l><r>sz<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>szba</l><r>sz<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>sznál</l><r>sz<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>szon</l><r>sz<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>sza</l><r>sz<s n="px3ss"/></r></p></e>
+      <e><p><l>szunk</l><r>sz<s n="px1ps"/></r></p></e>
+      <e><p><l>szuk</l><r>sz<s n="px3ps"/></r></p></e>
+  </pardef>
+  
+  <!-- sz ssz -->
+    <pardef n="cserké/sz__n">
+        <e><p><l>sz</l><r>sz<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>szt</l><r>sz<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>sznek</l><r>sz<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>sszel</l><r>sz<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>szben</l><r>sz<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>szhez</l><r>sz<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>szbe</l><r>sz<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>sznél</l><r>sz<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>szen</l><r>sz<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+      
+      <e><p><l>sze</l><r>sz<s n="px3ss"/></r></p></e>
+      <e><p><l>szünk</l><r>sz<s n="px1ps"/></r></p></e>
+      <e><p><l>szük</l><r>sz<s n="px3ps"/></r></p></e>
+  </pardef>
+
+    <!-- reguler e -->
+    <pardef n="kert__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>et</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nek</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>tel</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ben</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hez</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>be</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>en</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>ek</l><r><s n="n"/><s n="pl"/><s n="nom"/></r></p></e>
+
+        <e><p><l>je</l><r><s n="n"/><s n="px3ss"/></r></p></e>
+        
+        <e><p><l>jére</l><r><s n="n"/><s n="px3ss"/><s n="sg"/><s n="sub"/></r></p></e>
+    </pardef>
+
+    <pardef n="család__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ot</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>dal</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        
+        <e><p><l>ja</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>juk</l><r><s n="px3ps"/></r></p></e>
+    </pardef> 
+    
+    <pardef n="csend__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>et</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nek</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ben</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hez</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>be</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>en</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>del</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        
+        <e><p><l>je</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>ünk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>jük</l><r><s n="px3ps"/></r></p></e>
+    </pardef> 
+   
+   <pardef n="gyerek__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>et</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nek</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ben</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hez</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>be</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>en</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>kel</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        
+        <e><p><l>e</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>ünk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>ük</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="cink__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>et</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nek</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ben</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hez</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>be</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>en</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>kel</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        
+        <e><p><l>je</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>ünk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>jük</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="ber/ek__n">
+        <e><p><l>ek</l><r>ek<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ket</l><r>ek<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>eknek</l><r>ek<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ekben</l><r>ek<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>ekhez</l><r>ek<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ekbe</l><r>ek<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>eknél</l><r>ek<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>ken</l><r>ek<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>eknél</l><r>ek<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>ekkel</l><r>ek<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        
+        <e><p><l>ke</l><r>ek<s n="px3ss"/></r></p></e>
+      <e><p><l>künk</l><r>ek<s n="px1ps"/></r></p></e>
+      <e><p><l>kük</l><r>ek<s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="ember__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>t</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nek</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ben</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hez</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>be</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>en</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>rel</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        
+        <e><p><l>e</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>ünk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>ük</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="bor__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>t</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nak</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ban</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hoz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ba</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>on</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>nál</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>ral</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        
+        <e><p><l>a</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>unk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>uk</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="fej__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>et</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nek</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ben</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hez</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>be</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>en</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>jel</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+
+        <e><p><l>e</l><r><s n="n"/><s n="px3ss"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ét</l><r><s n="n"/><s n="px3ss"/><s n="sg"/><s n="acc"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="id/ő__n">
+        <e><p><l>ő</l><r>ő<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>őt</l><r>ő<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>őnek</l><r>ő<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>őben</l><r>ő<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>őhöz</l><r>ő<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>őbe</l><r>ő<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>őnél</l><r>ő<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>őn</l><r>ő<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>őnél</l><r>ő<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>ővel</l><r>ő<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        
+        <e><p><l>eje</l><r>ő<s n="px3ss"/></r></p></e>
+      <e><p><l>őnk</l><r>ő<s n="px1ps"/></r></p></e>
+      <e><p><l>ejük</l><r>ő<s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="cipő__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>t</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nek</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ben</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>höz</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>be</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>n</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>vel</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        
+        <e><p><l>je</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>nk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>jük</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+        <pardef n="bébi__n">
+        <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>t</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nek</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ben</l><r><s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>hez</l><r><s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>be</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>n</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>vel</l><r><s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        
+        <e><p><l>je</l><r><s n="px3ss"/></r></p></e>
+      <e><p><l>nk</l><r><s n="px1ps"/></r></p></e>
+      <e><p><l>jük</l><r><s n="px3ps"/></r></p></e>
+    </pardef>
+
+    <!-- ú u -->
+    <pardef n="fi/ú__n">
+        <e><p><l>ú</l><r>ú<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>út</l><r>ú<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>úk</l><r>ú<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>úval</l><r>ú<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>úban</l><r>ú<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>úhoz</l><r>ú<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>úba</l><r>ú<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>únál</l><r>ú<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>ún</l><r>ú<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+
+        <e><p><l>am</l><r>ú<s n="n"/><s n="px1ss"/></r></p></e>
+    </pardef>
+    
+    <!-- a á -->
+    <pardef n="macsk/a__n">
+        <e><p><l>a</l><r>a<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>át</l><r>a<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>ának</l><r>a<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ával</l><r>a<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ában</l><r>a<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>ához</l><r>a<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ába</l><r>a<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>ánál</l><r>a<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>án</l><r>a<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+
+        <e><p><l>ája</l><r>a<s n="n"/><s n="px3ss"/></r></p></e>
+    </pardef>
+
+    <pardef n="bék/e__n">
+        <e><p><l>e</l><r>e<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ét</l><r>e<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>ének</l><r>e<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ével</l><r>e<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ében</l><r>e<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>éhez</l><r>e<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ébe</l><r>e<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>énél</l><r>e<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>én</l><r>e<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+
+        <e><p><l>éje</l><r>a<s n="n"/><s n="px3ss"/></r></p></e>
+    </pardef>
+    
+    <pardef n="any/a__n">
+        <e><p><l>a</l><r>a<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>át</l><r>a<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>ának</l><r>a<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ával</l><r>a<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ában</l><r>a<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>ához</l><r>a<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ába</l><r>a<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>ánál</l><r>a<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>án</l><r>a<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+
+        <e><p><l>ja</l><r>a<s n="n"/><s n="px3ss"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>jának</l><r>a<s n="n"/><s n="px3ss"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>jára</l><r>a<s n="n"/><s n="px3ss"/><s n="sg"/><s n="sub"/></r></p></e>
+        <e><p><l>juk</l><r>a<s n="n"/><s n="px3ps"/></r></p></e>
+    </pardef>
+
+    <!-- ny nny -->
+    <pardef n="lá/ny__n">
+        <e><p><l>ny</l><r>ny<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>nynak</l><r>ny<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>nyt</l><r>ny<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>nnyal</l><r>ny<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>nyban</l><r>ny<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>nyhoz</l><r>ny<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>nyba</l><r>ny<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>nynál</l><r>ny<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>nyon</l><r>ny<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        
+        <e><p><l>nya</l><r>ny<s n="n"/><s n="px3ss"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>nyának</l><r>ny<s n="n"/><s n="px3ss"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>nyára</l><r>ny<s n="n"/><s n="px3ss"/><s n="sg"/><s n="sub"/></r></p></e>
+        <e><p><l>nyuk</l><r>ny<s n="n"/><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+
+    <!-- shortening -->
+    <pardef n="poh/ár__n">
+        <e><p><l>ár</l><r>ár<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>árnak</l><r>ár<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>arat</l><r>ár<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>árral</l><r>ár<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>árban</l><r>ár<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>árhoz</l><r>ár<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>árba</l><r>ár<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>árnál</l><r>ár<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>áron</l><r>ár<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        
+        <e><p><l>ara</l><r>ár<s n="n"/><s n="px3ss"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>arának</l><r>ár<s n="n"/><s n="px3ss"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>arára</l><r>ár<s n="n"/><s n="px3ss"/><s n="sg"/><s n="sub"/></r></p></e>
+        <e><p><l>aruk</l><r>ár<s n="n"/><s n="px3ps"/></r></p></e>
+    </pardef>
+    
+    <pardef n="k/éz__n">
+        <e><p><l>éz</l><r>éz<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ezet</l><r>éz<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ézzel</l><r>éz<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ézben</l><r>éz<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>ézhez</l><r>éz<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ézbe</l><r>éz<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>éznél</l><r>éz<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>ézen</l><r>éz<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        
+        <e><p><l>ezét</l><r>éz<s n="n"/><s n="pl"/><s n="foo"/></r></p></e>
+    </pardef>
+    
+    <pardef n="v/íz__n">
+        <e><p><l>íz</l><r>íz<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>izet</l><r>íz<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>ízzel</l><r>íz<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>ízben</l><r>íz<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>ízhez</l><r>íz<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>ízbe</l><r>íz<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>íznél</l><r>íz<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>ízen</l><r>íz<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Proper nouns -->
+
+    <pardef n="case-prop">
+      <e><p><l></l><r><s n="nom"/></r></p></e>
+      <e><p><l>t</l><r><s n="acc"/></r></p></e>
+      <e><p><l>nak</l><r><s n="dat"/></r></p></e>
+      <e><p><l>val</l><r><s n="ins"/></r></p></e>
+      <e><p><l>ban</l><r><s n="ine"/></r></p></e>
+      <e><p><l>ba</l><r><s n="ill"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="Jancsi__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p><par n="case-prop"/></e>
+    </pardef>
+
+    <pardef n="Mari__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p><par n="case-prop"/></e>
+    </pardef>
+
+    <!-- SECTION: Adjectives -->
+
+    <!-- incomparable "adjective" -->
+    <pardef n="éves__adj">
+        <e><p><l></l><r><s n="adj"/></r></p></e>
+    </pardef>
+
+    <pardef n="hideg__adj">
+      <e><p><l></l><r><s n="adj"/></r></p></e>
+      <e><p><l>ebb</l><r><s n="adj"/><s n="comp"/></r></p></e>
+    </pardef>
+
+    <pardef n="nagy__adj">
+      <e><p><l></l><r><s n="adj"/></r></p></e>
+      <e><p><l>obb</l><r><s n="adj"/><s n="comp"/></r></p></e>
+    </pardef>
+
+    <pardef n="boldog__adj">
+        <e><p><l></l><r><s n="adj"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ok</l><r><s n="adj"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>abb</l><r><s n="adj"/><s n="comp"/></r></p></e>
+    </pardef>
+
+    <pardef n="ki/csi__adj">
+      <e><p><l>csi</l><r>csi<s n="adj"/></r></p></e>
+      <e><p><l>sebb</l><r>csi<s n="adj"/><s n="comp"/></r></p></e>
+    </pardef>
+
+    <pardef n="szé/p__adj">
+      <e><p><l>p</l><r>p<s n="adj"/></r></p></e>
+      <e><p><l>bb</l><r>p<s n="adj"/><s n="comp"/></r></p></e>
+    </pardef>
+
+    <pardef n="j/ó__adj">
+      <e><p><l>ó</l><r>ó<s n="adj"/></r></p></e>
+      <e><p><l>obb</l><r>ó<s n="adj"/><s n="comp"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Adverbs -->
+
+    <pardef n="hol__adv">
+      <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
+    <pardef n="/nagyon__adv">
+      <e><p><l>nagyon</l><r>nagyon<s n="adv"/></r></p></e>
+      <e><p><l>jobban</l><r>nagyon<s n="adv"/><s n="comp"/></r></p></e>
+      <e><p><l>legjobban</l><r>nagyon<s n="adv"/><s n="sup"/></r></p></e>
+    </pardef>
+
+    <pardef n="j/ól__adv">
+      <e><p><l>ól</l><r>ól<s n="adv"/></r></p></e>
+      <e><p><l>obban</l><r>ól<s n="adv"/><s n="comp"/></r></p></e>
+    </pardef>
+
+    <pardef n="lassa/n__adv">
+      <e><p><l>n</l><r>n<s n="adv"/></r></p></e>
+      <e><p><l>bban</l><r>n<s n="adv"/><s n="comp"/></r></p></e>
+    </pardef>
+
+    <pardef n="tegnap__adv">
+      <e><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Verbs -->
+
+    <!-- regular a o u -->
+    <pardef n="imád__vblex">
+        <e><p><l>ni</l><r><s n="vblex"/><s n="inf"/></r></p></e>
+        <e><p><l>ok</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>sz</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>unk</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tok</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nak</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>om</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>od</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ja</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>jik</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>átok</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ák</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+
+
+        <e><p><l>ást</l><r><s n="vblex"/><s n="foo"/></r></p></e>
+    </pardef>
+
+    <pardef n="lát__vblex">
+        <e><p><l>ni</l><r><s n="vblex"/><s n="inf"/></r></p></e>
+        <e><p><l>ok</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>sz</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>unk</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tok</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nak</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>om</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>od</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ja</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>jik</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>átok</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ák</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>tam</l><r><s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tál</l><r><s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ott</l><r><s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>tunk</l><r><s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>tatok</l><r><s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>tak</l><r><s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>talak</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tad</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ta</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>tuk</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>tátok</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ták</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p3"/><s n="pl"/></r></p></e>
+        </pardef>
+
+    <!-- regular e1 ö ü -->
+    <pardef n="szeret__vblex">
+
+        <e><p><l>ni</l><r><s n="vblex"/><s n="inf"/></r></p></e>
+        <e><p><l>ek</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>sz</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ünk</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tek</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nek</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        
+        <e><p><l>em</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ed</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>i</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>jük</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>itek</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ik</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>te</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <!-- asz -->
+    <pardef n="tart__vblex">
+        <e><p><l>ani</l><r><s n="vblex"/><s n="inf"/></r></p></e>
+        <e><p><l>ok</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>asz</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>unk</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>otok</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>anak</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>om</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>od</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ja</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>juk</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>játok</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ják</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>d</l><r><s n="vblex"/><s n="subj"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        
+        <e><p><l>hatom</l><r><s n="vblex"/><s n="pot"/><s n="px1ss"/></r></p></e>
+        <e><p><l>ózik</l><r><s n="vblex"/><s n="pp"/><s n="foo"/></r></p></e>
+    </pardef>
+
+    <!-- regular ik -->
+    <pardef n="játsz/ik__vblex">
+        <e><p><l>ani</l><r>ik<s n="vblex"/><s n="inf"/></r></p></e>
+        
+        <e><p><l>ok</l><r>ik<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ol</l><r>ik<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ik</l><r>ik<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>unk</l><r>ik<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>otok</l><r>ik<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>anak</l><r>ik<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>hattak</l><r>ik<s n="vblex"/><s n="mod"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="e/szik__vblex">
+        <e><p><l>nni</l><r>szik<s n="vblex"/><s n="inf"/></r></p></e>
+        <e><p><l>szek</l><r>szik<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>szel</l><r>szik<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>szik</l><r>szik<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>szünk</l><r>szik<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tek</l><r>szik<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nek</l><r>szik<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="i/szik__vblex">
+        <e><p><l>nni</l><r>szik<s n="vblex"/><s n="inf"/></r></p></e>
+        <e><p><l>szok</l><r>szik<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>szol</l><r>szik<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>szik</l><r>szik<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>szunk</l><r>szik<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tok</l><r>szik<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nak</l><r>szik<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    <!-- néz -->
+    <pardef n="néz__vblex">
+        <e><p><l>ni</l><r><s n="vblex"/><s n="inf"/></r></p></e>
+        <e><p><l>ek</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>el</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ünk</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tek</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nek</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>i</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <!-- jön jöv -->
+    <pardef n="jö/n__vblex">
+
+        <e><p><l>nni</l><r>n<s n="vblex"/><s n="inf"/></r></p></e>
+        <e><p><l>vök</l><r>n<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ssz</l><r>n<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>n</l><r>n<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>vünk</l><r>n<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ttök</l><r>n<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>sztök</l><r>n<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nnek</l><r>n<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        
+    </pardef>
+
+
+    <!-- megy -->
+    <pardef n="me/gy__vblex">
+      <e><p><l>nni</l><r>gy<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>het</l><r>gy<s n="vblex"/><s n="pot"/></r></p></e>
+      <e><p><l>nt</l><r>gy<s n="vblex"/><s n="pp"/></r></p></e>
+      <e><p><l>gyek</l><r>gy<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>gy</l><r>gy<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>n</l><r>gy<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>gyünk</l><r>gy<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ntek</l><r>gy<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>nnek</l><r>gy<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ntem</l><r>gy<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ntél</l><r>gy<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>nt</l><r>gy<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ntünk</l><r>gy<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ntetek</l><r>gy<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ntek</l><r>gy<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <!-- van -->
+    <pardef n="/van__vbser">
+      <e><p><l>lenni</l><r>van<s n="vbser"/><s n="inf"/></r></p></e>
+      <e><p><l>lehet</l><r>van<s n="vbser"/><s n="pot"/></r></p></e>
+      <e><p><l>lehet-e</l><r>van<s n="vbser"/><s n="pot"/>+e<s n="qst"/></r></p></e>
+      <e><p><l>volt</l><r>van<s n="vbser"/><s n="pp"/></r></p></e>
+      <e><p><l>vagyok</l><r>van<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>vagy</l><r>van<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>van</l><r>van<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>vagyunk</l><r>van<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>vagytok</l><r>van<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>vannak</l><r>van<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>voltam</l><r>van<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>voltál</l><r>van<s n="vbser"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>volt</l><r>van<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>voltunk</l><r>van<s n="vbser"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>voltatok</l><r>van<s n="vbser"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>voltak</l><r>van<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Interjections -->
+
+    <pardef n="nem__ij">
+      <e><p><l></l><r><s n="ij"/></r></p></e>
+    </pardef>
+
+  </pardefs>
+
+  <section id="main" type="standard">
+ 
+    <!-- SECTION: Conjunctions -->
+
+    <e lm="és"><i>és</i><par n="és__cnjcoo"/></e>
+    <e lm="de"><i>de</i><par n="és__cnjcoo"/></e>
+    <e lm="ha"><i>ha</i><par n="ha__cnjadv"/></e>
+    <e lm="bár"><i>bár</i><par n="ha__cnjadv"/></e>
+    <e lm="meg"><i>meg</i><par n="ha__cnjadv"/></e>
+
+    <!-- SECTION: Postpositions -->
+
+    <e lm="előtt"><i>előtt</i><par n="előtt__post"/></e>
+    <e lm="elől"><i>elől</i><par n="előtt__post"/></e>
+    <e lm="alá"><i>alá</i><par n="előtt__post"/></e>
+    <e lm="alám"><i>alám</i><par n="előtt__post"/></e>
+    <e lm="mögött"><i>mögött</i><par n="előtt__post"/></e>
+    <e lm="mögül"><i>mögül</i><par n="előtt__post"/></e>
+
+    <!-- SECTION: Determiners -->
+
+    <e lm="a"><i></i><par n="/a__det"/></e>
+    <e lm="egy"><i>egy</i><par n="egy__det"/></e>
+
+    <!-- SECTION: Pronouns -->
+
+    <e lm="én"><i></i><par n="/én__prn"/></e>
+    <e lm="te"><i></i><par n="/te__prn"/></e>
+    <e lm="ő"><i></i><par n="/ő__prn"/></e>
+    <e lm="mi"><i></i><par n="/mi__prn"/></e>
+    <e lm="ti"><i></i><par n="/ti__prn"/></e>
+    <e lm="ők"><i></i><par n="/ők__prn"/></e>
+    <e lm="az"><i>a</i><par n="a/z__prn"/></e>
+    <e lm="ez"><i>e</i><par n="e/z__prn"/></e>
+    <e lm="semmi"><i>semmi</i><par n="valami__prn"/></e>
+    <e lm="valami"><i>valami</i><par n="valami__prn"/></e>
+    
+    <!-- SECTION: Numerals -->
+
+    <e lm="két"><i>két</i><par n="két__num"/></e>
+
+    <!-- SECTION: Nouns -->
+
+    <e lm="ablak"><i>ablak</i><par n="ablak__n"/></e>
+    <e lm="ábra"><i>ábr</i><par n="macsk/a__n"/></e>
+    <e lm="ács"><i>á</i><par n="á/cs__n"/></e>
+    <e lm="adat"><i>adat</i><par n="adat__n"/></e>
+    <e lm="adó"><i>adó</i><par n="adó__n"/></e>
+    <e lm="ág"><i>ág</i><par n="ág__n"/></e>
+    <e lm="agancs"><i>agan</i><par n="á/cs__n"/></e>
+    <e lm="agy"><i>a</i><par n="a/gy__n"/></e>
+    <e lm="ágy"><i>á</i><par n="a/gy__n"/></e>
+    <e lm="agyag"><i>agyag</i><par n="hang__n"/></e>
+    <e lm="ágyú"><i>ágyú</i><par n="adó__n"/></e>
+    <e lm="ajánlat"><i>ajánlat</i><par n="adat__n"/></e>
+    <e lm="ajtó"><i>ajt</i><par n="ajt/ó__n"/></e>
+    <e lm="akadály"><i>akadá</i><par n="akadá/ly__n"/></e>
+    <e lm="akadémia"><i>akadémi</i><par n="macsk/a__n"/></e>
+    <e lm="akció"><i>akció</i><par n="adó__n"/></e>
+    <e lm="akusztika"><i>akusztik</i><par n="macsk/a__n"/></e>
+    <e lm="alakzat"><i>alakzat</i><par n="adat__n"/></e>
+    <e lm="alany"><i>ala</i><par n="lá/ny__n"/></e>
+    <e lm="albérlő"><i>albérlő</i><par n="cipő__n"/></e>
+    <e lm="alkohol"><i>alkohol</i><par n="alkohol__n"/></e>
+    <e lm="állat"><i>állat</i><par n="adat__n"/></e>
+    <e lm="allergia"><i>allergi</i><par n="macsk/a__n"/></e>
+    <e lm="állólámpa"><i>állólámp</i><par n="macsk/a__n"/></e>
+    <e lm="álmosság"><i>álmosság</i><par n="ország__n"/></e>
+    <e lm="álmatlanság"><i>álmatlanság</i><par n="ország__n"/></e>
+    <e lm="alma"><i>alm</i><par n="macsk/a__n"/></e>
+    <e lm="alsónadrág"><i>alsónadrág</i><par n="hang__n"/></e>
+    <e lm="altatódal"><i>altatódal</i><par n="asztal__n"/></e>
+    <e lm="alufólia"><i>alufóli</i><par n="macsk/a__n"/></e>
+    <e lm="alvilág"><i>alvilág</i><par n="ország__n"/></e>
+    <e lm="akadály"><i>akadá</i><par n="akadá/ly__n"/></e>
+    <e lm="angyal"><i>angyal</i><par n="asztal__n"/></e>
+    <e lm="anya"><i>any</i><par n="any/a__n"/></e>
+    <e lm="anyag"><i>anyag</i><par n="ország__n"/></e>
+    <e lm="apa"><i>ap</i><par n="any/a__n"/></e>
+    <e lm="apáca"><i>apác</i><par n="macsk/a__n"/></e>
+    <e lm="apát"><i>apát</i><par n="pont__n"/></e>
+    <e lm="apátia"><i>apáti</i><par n="macsk/a__n"/></e>
+    <e lm="ápoló"><i>ápoló</i><par n="adó__n"/></e>
+    <e lm="ápolónő"><i>ápolónő</i><par n="cipő__n"/></e>
+    <e lm="áramlat"><i>áramlat</i><par n="adat__n"/></e>
+    <e lm="arany"><i>ara</i><par n="ara/ny__n"/></e>
+    <e lm="arány"><i>ará</i><par n="lá/ny__n"/></e>
+    <e lm="arcátlanság"><i>arcátlanság</i><par n="ország__n"/></e>
+    <e lm="aréna"><i>arén</i><par n="macsk/a__n"/></e>
+    <e lm="ária"><i>ári</i><par n="macsk/a__n"/></e>
+    <e lm="árnyék"><i>árnyék</i><par n="ablak__n"/></e>
+    <e lm="árok"><i>ár</i><par n="ár/ok__n"/></e>
+    <e lm="aroma"><i>arom</i><par n="macsk/a__n"/></e>
+    <e lm="aromaterápia"><i>aromaterápi</i><par n="macsk/a__n"/></e>
+    <e lm="árpa"><i>árp</i><par n="macsk/a__n"/></e>
+    <e lm="ártatlanság"><i>ártatlanság</i><par n="ország__n"/></e>
+    <e lm="artéria"><i>artéri</i><par n="macsk/a__n"/></e>
+    <e lm="articsóka"><i>articsók</i><par n="macsk/a__n"/></e>
+    <e lm="áru"><i>áru</i><par n="adó__n"/></e>
+    <e lm="áruló"><i>áruló</i><par n="adó__n"/></e>
+    <e lm="árvaság"><i>árvaság</i><par n="ország__n"/></e>
+    <e lm="ásó"><i>ásó</i><par n="adó__n"/></e>
+    <e lm="ásvány"><i>ásvá</i><par n="lá/ny__n"/></e>
+    <e lm="asztal"><i>asztal</i><par n="asztal__n"/></e>
+    <e lm="asztma"><i>asztm</i><par n="macsk/a__n"/></e>
+    <e lm="ateista"><i>ateist</i><par n="macsk/a__n"/></e>
+    <e lm="atmoszféra"><i>atmoszfér</i><par n="macsk/a__n"/></e>
+    <e lm="autó"><i>autó</i><par n="adó__n"/></e>
+    <e lm="automata"><i>automat</i><par n="macsk/a__n"/></e>
+    <e lm="bab"><i>bab</i><par n="bab__n"/></e>
+    <e lm="baba"><i>bab</i><par n="macsk/a__n"/></e>
+    <e lm="babaruha"><i>babaruh</i><par n="macsk/a__n"/></e>
+    <e lm="babona"><i>babon</i><par n="macsk/a__n"/></e>
+    <e lm="bábu"><i>bábu</i><par n="adó__n"/></e>
+    <e lm="bajnokság"><i>bajnokság</i><par n="ország__n"/></e>
+    <e lm="bakancs"><i>bakan</i><par n="á/cs__n"/></e>
+    <e lm="bál"><i>bál</i><par n="alkohol__n"/></e>
+    <e lm="bála"><i>bál</i><par n="macsk/a__n"/></e>
+    <e lm="ballada"><i>ballad</i><par n="macsk/a__n"/></e>
+    <e lm="ballisztika"><i>ballisztik</i><par n="macsk/a__n"/></e>
+    <e lm="bálna"><i>báln</i><par n="macsk/a__n"/></e>
+    <e lm="balta"><i>balt</i><par n="macsk/a__n"/></e>
+    <e lm="bálvány"><i>bálvá</i><par n="lá/ny__n"/></e>
+    <e lm="bambusz"><i>bambu</i><par n="vála/sz__n"/></e>
+    <e lm="bámulat"><i>bámulat</i><par n="adat__n"/></e>
+    <e lm="banán"><i>banán</i><par n="banán__n"/></e>
+    <e lm="bánat"><i>bánat</i><par n="adat__n"/></e>
+    <e lm="banda"><i>band</i><par n="macsk/a__n"/></e>
+    <e lm="bandita"><i>bandit</i><par n="macsk/a__n"/></e>
+    <e lm="bank"><i>bank</i><par n="bank__n"/></e>
+    <e lm="banya"><i>bany</i><par n="macsk/a__n"/></e>
+    <e lm="bánya"><i>bány</i><par n="macsk/a__n"/></e>
+    <e lm="bányász"><i>bányá</i><par n="vála/sz__n"/></e>
+    <e lm="barack"><i>barack</i><par n="bank__n"/></e>
+    <e lm="bárány"><i>bárá</i><par n="lá/ny__n"/></e>
+    <e lm="barát"><i>barát</i><par n="pont__n"/></e>
+    <e lm="barátnő"><i>barátnő</i><par n="cipő__n"/></e>
+    <e lm="barátság"><i>barátság</i><par n="ország__n"/></e>
+    <e lm="barázda"><i>barázd</i><par n="macsk/a__n"/></e>
+    <e lm="barbárság"><i>barbárság</i><par n="ország__n"/></e>
+    <e lm="barka"><i>bark</i><par n="macsk/a__n"/></e>
+    <e lm="bárka"><i>bárk</i><par n="macsk/a__n"/></e>
+    <e lm="barlang"><i>barlang</i><par n="hang__n"/></e>
+    <e lm="barnaság"><i>barnaság</i><par n="ország__n"/></e>
+    <e lm="báró"><i>báró</i><par n="adó__n"/></e>
+    <e lm="baromság"><i>baromság</i><par n="ország__n"/></e>
+    <e lm="bárpult"><i>bárpult</i><par n="pont__n"/></e>
+    <e lm="bástya"><i>básty</i><par n="macsk/a__n"/></e>
+    <e lm="bátorság"><i>bátorság</i><par n="ország__n"/></e>
+    <e lm="bébi"><i>bébi</i><par n="bébi__n"/></e>
+    <e lm="befektető"><i>befektető</i><par n="cipő__n"/></e>
+    <e lm="begónia"><i>begóni</i><par n="macsk/a__n"/></e>
+    <e lm="bejárat"><i>bejárat</i><par n="adat__n"/></e>
+    <e lm="béke"><i>bék</i><par n="bék/e__n"/></e>
+    <e lm="bélyeg"><i>bélyeg</i><par n="bélyeg__n"/></e>
+    <e lm="bélyegző"><i>bélyegző</i><par n="cipő__n"/></e>
+    <e lm="bemondó"><i>bemondó</i><par n="adó__n"/></e>
+    <e lm="bemutató"><i>bemutató</i><par n="adó__n"/></e>
+    <e lm="berek"><i>ber</i><par n="ber/ek__n"/></e>
+    <e lm="bérlő"><i>bérlő</i><par n="cipő__n"/></e>
+    <e lm="besúgó"><i>besúgó</i><par n="adó__n"/></e>
+    <e lm="beszédtechnika"><i>beszédtechnik</i><par n="macsk/a__n"/></e>
+    <e lm="betegágy"><i>betegá</i><par n="a/gy__n"/></e>
+    <e lm="betegség"><i>betegség</i><par n="bélyeg__n"/></e>
+    <e lm="betegszállító"><i>betegszállító</i><par n="adó__n"/></e>
+    <e lm="beugró"><i>beugró</i><par n="adó__n"/></e>
+    <e lm="beutaló"><i>beutaló</i><par n="adó__n"/></e>
+    <e lm="bevándorló"><i>bevándorló</i><par n="adó__n"/></e>
+    <e lm="bibircsók"><i>bibircsók</i><par n="bank__n"/></e>
+    <e lm="bicikli"><i>bicikli</i><par n="bébi__n"/></e>
+    <e lm="bicska"><i>bicsk</i><par n="macsk/a__n"/></e>
+    <e lm="bika"><i>bik</i><par n="macsk/a__n"/></e>
+    <e lm="billentyű"><i>billentyű</i><par n="cipő__n"/></e>
+    <e lm="biológia"><i>biológi</i><par n="macsk/a__n"/></e>
+    <e lm="birka"><i>birk</i><par n="macsk/a__n"/></e>
+    <e lm="bíró"><i>bíró</i><par n="adó__n"/></e>
+    <e lm="bíróság"><i>bíróság</i><par n="ország__n"/></e>
+    <e lm="bírság"><i>bírság</i><par n="ország__n"/></e>
+    <e lm="bizalmasság"><i>bizalmasság</i><par n="ország__n"/></e>
+    <e lm="bizonyítvány"><i>bizonyítvá</i><par n="lá/ny__n"/></e>
+    <e lm="bizonylat"><i>bizonylat</i><par n="adat__n"/></e>
+    <e lm="bizottság"><i>bizottság</i><par n="ország__n"/></e>
+    <e lm="biztonság"><i>biztonság</i><par n="ország__n"/></e>
+    <e lm="biztosító"><i>biztosító</i><par n="adó__n"/></e>
+    <e lm="bob"><i>bob</i><par n="bab__n"/></e>
+    <e lm="bocsánat"><i>bocsánat</i><par n="adat__n"/></e>
+    <e lm="bodza"><i>bodz</i><par n="macsk/a__n"/></e>
+    <e lm="bogáncs"><i>bogán</i><par n="á/cs__n"/></e>
+    <e lm="bogár"><i>bog</i><par n="poh/ár__n"/></e>
+    <e lm="bogyó"><i>bogyó</i><par n="adó__n"/></e>
+    <e lm="bók"><i>bók</i><par n="bank__n"/></e>
+    <e lm="boka"><i>bok</i><par n="macsk/a__n"/></e>
+    <e lm="boldogság"><i>boldogság</i><par n="ország__n"/></e>
+    <e lm="boldogtalanság"><i>boldogtalanság</i><par n="ország__n"/></e>
+    <e lm="bolha"><i>bolh</i><par n="macsk/a__n"/></e>
+    <e lm="bolondság"><i>bolondság</i><par n="ország__n"/></e>
+    <e lm="bolt"><i>bolt</i><par n="pont__n"/></e>
+    <e lm="boltozat"><i>boltozat</i><par n="adat__n"/></e>
+    <e lm="bolygó"><i>bolygó</i><par n="adó__n"/></e>
+    <e lm="bomba"><i>bomb</i><par n="macsk/a__n"/></e>
+    <e lm="bor"><i>bor</i><par n="bor__n"/></e>
+    <e lm="borda"><i>bord</i><par n="macsk/a__n"/></e>
+    <e lm="boríték"><i>boríték</i><par n="ablak__n"/></e>
+    <e lm="borító"><i>borító</i><par n="adó__n"/></e>
+    <e lm="borjú"><i>borjú</i><par n="adó__n"/></e>
+    <e lm="boróka"><i>borók</i><par n="macsk/a__n"/></e>
+    <e lm="borospohár"><i>borospoh</i><par n="poh/ár__n"/></e>
+    <e lm="borotva"><i>borotv</i><par n="macsk/a__n"/></e>
+    <e lm="borozó"><i>borozó</i><par n="adó__n"/></e>
+    <e lm="borsó"><i>borsó</i><par n="adó__n"/></e>
+    <e lm="borsmenta"><i>borsment</i><par n="macsk/a__n"/></e>
+    <e lm="bosszú"><i>bosszú</i><par n="adó__n"/></e>
+    <e lm="bot"><i>bot</i><par n="pont__n"/></e>
+    <e lm="bozót"><i>bozót</i><par n="pont__n"/></e>
+    <e lm="bögre"><i>bögr</i><par n="bék/e__n"/></e>
+    <e lm="bölcső"><i>bölcső</i><par n="cipő__n"/></e>
+    <e lm="böngésző"><i>böngésző</i><par n="cipő__n"/></e>
+    <e lm="brácsa"><i>brács</i><par n="macsk/a__n"/></e>
+    <e lm="bú"><i>bú</i><par n="adó__n"/></e>
+    <e lm="buborék"><i>buborék</i><par n="ablak__n"/></e>
+    <e lm="bunda"><i>bund</i><par n="macsk/a__n"/></e>
+    <e lm="burgonya"><i>burgony</i><par n="macsk/a__n"/></e>
+    <e lm="busz"><i>bu</i><par n="vála/sz__n"/></e>
+    <e lm="búza"><i>búz</i><par n="macsk/a__n"/></e>
+    <e lm="buzi"><i>buzi</i><par n="adó__n"/></e>
+    <e lm="büfé"><i>büfé</i><par n="bébi__n"/></e>
+    <e lm="bűnöző"><i>bűnöző</i><par n="cipő__n"/></e>
+    <e lm="bűntudat"><i>bűntudat</i><par n="adat__n"/></e>
+    <e lm="büszkeség"><i>büszkeség</i><par n="bélyeg__n"/></e>
+    <e lm="cápa"><i>cáp</i><par n="macsk/a__n"/></e>
+    <e lm="cédula"><i>cédul</i><par n="macsk/a__n"/></e>
+    <e lm="cég"><i>cég</i><par n="bélyeg__n"/></e>
+    <e lm="cékla"><i>cékl</i><par n="macsk/a__n"/></e>
+    <e lm="cél"><i>cél</i><par n="alkohol__n"/></e>
+    <e lm="cella"><i>cell</i><par n="macsk/a__n"/></e>
+    <e lm="célpont"><i>célpont</i><par n="pont__n"/></e>
+    <e lm="cérna"><i>cérn</i><par n="macsk/a__n"/></e>
+    <e lm="ceruza"><i>ceruz</i><par n="macsk/a__n"/></e>
+    <e lm="cickány"><i>cická</i><par n="lá/ny__n"/></e>
+    <e lm="cigány"><i>cigá</i><par n="lá/ny__n"/></e>
+    <e lm="cigaretta"><i>cigarett</i><par n="macsk/a__n"/></e>
+    <e lm="címke"><i>címk</i><par n="bék/e__n"/></e>
+    <e lm="cink"><i>cink</i><par n="cink__n"/></e>
+    <e lm="cinke"><i>cink</i><par n="bék/e__n"/></e>
+    <e lm="cipő"><i>cipő</i><par n="cipő__n"/></e>
+    <e lm="cirkusz"><i>cirku</i><par n="vála/sz__n"/></e>
+    <e lm="cukrász"><i>cukrá</i><par n="vála/sz__n"/></e>
+    <e lm="cukrászda"><i>cukrászd</i><par n="macsk/a__n"/></e>
+    <e lm="csacsi"><i>csacsi</i><par n="adó__n"/></e>
+    <e lm="csákány"><i>csáká</i><par n="lá/ny__n"/></e>
+    <e lm="család"><i>család</i><par n="család__n"/></e>
+    <e lm="csalán"><i>csalán</i><par n="banán__n"/></e>
+    <e lm="csalogány"><i>csalogá</i><par n="lá/ny__n"/></e>
+    <e lm="csapatjáték"><i>csapatjáték</i><par n="ablak__n"/></e>
+    <e lm="csapatkapitány"><i>csapatkapitá</i><par n="lá/ny__n"/></e>
+    <e lm="csapatmunka"><i>csapatmunk</i><par n="macsk/a__n"/></e>
+    <e lm="csapóajtó"><i>csapóajt</i><par n="ajt/ó__n"/></e>
+    <e lm="csárda"><i>csárd</i><par n="macsk/a__n"/></e>
+    <e lm="császár"><i>császár</i><par n="bor__n"/></e>
+    <e lm="csat"><i>csat</i><par n="pont__n"/></e>
+    <e lm="csata"><i>csat</i><par n="macsk/a__n"/></e>
+    <e lm="csatahajó"><i>csatahajó</i><par n="adó__n"/></e>
+    <e lm="csatamező"><i>csatamező</i><par n="cipő__n"/></e>
+    <e lm="csatolmány"><i>csatolmá</i><par n="lá/ny__n"/></e>
+    <e lm="csatorna"><i>csatorn</i><par n="macsk/a__n"/></e>
+    <e lm="csecsemő"><i>csecsemő</i><par n="cipő__n"/></e>
+    <e lm="csellista"><i>csellist</i><par n="macsk/a__n"/></e>
+    <e lm="cselló"><i>cselló</i><par n="adó__n"/></e>
+    <e lm="csend"><i>csend</i><par n="csend__n"/></e>
+    <e lm="csengő"><i>csengő</i><par n="cipő__n"/></e>
+    <e lm="csere"><i>cser</i><par n="bék/e__n"/></e>
+    <e lm="cserkész"><i>cserké</i><par n="cserké/sz__n"/></e>
+    <e lm="cserkészcsapat"><i>cserkészcsapat</i><par n="adat__n"/></e>
+    <e lm="csiga"><i>csig</i><par n="macsk/a__n"/></e>
+    <e lm="csikó"><i>csikó</i><par n="adó__n"/></e>
+    <e lm="csillag"><i>csillag</i><par n="ország__n"/></e>
+    <e lm="csillagász"><i>csillagá</i><par n="vála/sz__n"/></e>
+    <e lm="csillagászat"><i>csillagászat</i><par n="adat__n"/></e>
+    <e lm="csipesz"><i>csipe</i><par n="cserké/sz__n"/></e>
+    <e lm="csipke"><i>csipk</i><par n="bék/e__n"/></e>
+    <e lm="csipkebogyó"><i>csipkebogyó</i><par n="adó__n"/></e>
+    <e lm="csípő"><i>csípő</i><par n="cipő__n"/></e>
+    <e lm="csirke"><i>csirk</i><par n="bék/e__n"/></e>
+    <e lm="csizma"><i>csizm</i><par n="macsk/a__n"/></e>
+    <e lm="csoda"><i>csod</i><par n="macsk/a__n"/></e>
+    <e lm="csodálat"><i>csodálat</i><par n="adat__n"/></e>
+    <e lm="csodaország"><i>csodaország</i><par n="ország__n"/></e>
+    <e lm="csók"><i>csók</i><par n="bank__n"/></e>
+    <e lm="csóka"><i>csók</i><par n="macsk/a__n"/></e>
+    <e lm="csomag"><i>csomag</i><par n="hang__n"/></e>
+    <e lm="csomó"><i>csomó</i><par n="adó__n"/></e>
+    <e lm="csónak"><i>csónak</i><par n="bank__n"/></e>
+    <e lm="csonk"><i>csonk</i><par n="bank__n"/></e>
+    <e lm="csont"><i>csont</i><par n="pont__n"/></e>
+    <e lm="csoport"><i>csoport</i><par n="pont__n"/></e>
+    <e lm="csótány"><i>csótá</i><par n="lá/ny__n"/></e>
+    <e lm="csúcspont"><i>csúcspont</i><par n="pont__n"/></e>
+    <e lm="csuka"><i>csuk</i><par n="macsk/a__n"/></e>
+    <e lm="csukló"><i>csukló</i><par n="adó__n"/></e>
+    <e lm="csúszda"><i>csúszd</i><par n="macsk/a__n"/></e>
+    <e lm="csúzli"><i>csúzli</i><par n="adó__n"/></e>
+    <e lm="ember"><i>ember</i><par n="ember__n"/></e>
+    <e lm="fa"><i>f</i><par n="macsk/a__n"/></e>
+    <e lm="fiú"><i>fi</i><par n="fi/ú__n"/></e>
+    <e lm="fej"><i>fej</i><par n="fej__n"/></e>
+    <e lm="gyerek"><i>gyerek</i><par n="gyerek__n"/></e>
+    <e lm="hang"><i>hang</i><par n="hang__n"/></e>
+    <e lm="ház"><i>ház</i><par n="ház__n"/></e>
+    <e lm="húg"><i>húg</i><par n="ország__n"/></e>
+    <e lm="idő"><i>id</i><par n="id/ő__n"/></e>
+    <e lm="játék"><i>játék</i><par n="ablak__n"/></e>
+    <e lm="kéz"><i>k</i><par n="k/éz__n"/></e>
+    <e lm="kérdés"><i>kérdés</i><par n="kérdés__n"/></e>
+    <e lm="kert"><i>kert</i><par n="kert__n"/></e>
+    <e lm="kisfiú"><i>kisfi</i><par n="fi/ú__n"/></e>
+    <e lm="kislány"><i>kislá</i><par n="lá/ny__n"/></e>
+    <e lm="kutya"><i>kuty</i><par n="macsk/a__n"/></e>
+    <e lm="lány"><i>lá</i><par n="lá/ny__n"/></e>
+    <e lm="macska"><i>macsk</i><par n="macsk/a__n"/></e>
+    <e lm="madár"><i>mad</i><par n="poh/ár__n"/></e>
+    <e lm="pohár"><i>poh</i><par n="poh/ár__n"/></e>
+    <e lm="pont"><i>pont</i><par n="pont__n"/></e>
+    <e lm="szem"><i>szem</i><par n="szem__n"/></e>
+    <e lm="szék"><i>szék</i><par n="gyerek__n"/></e>
+    <e lm="víz"><i>v</i><par n="v/íz__n"/></e>
+    <e lm="válasz"><i>vála</i><par n="vála/sz__n"/></e>
+
+    <!-- SECTION: Proper nouns -->
+
+    <e lm="Jancsi"><i>Jancsi</i><par n="Jancsi__np"/></e>
+    <e lm="Mari"><i>Mari</i><par n="Mari__np"/></e>
+
+    <!-- SECTION: Adjectives -->
+
+    <e lm="boldog"><i>boldog</i><par n="boldog__adj"/></e>
+    <e lm="figyelmes"><i>figyelmes</i><par n="hideg__adj"/></e>
+    <e lm="hideg"><i>hideg</i><par n="hideg__adj"/></e>
+    <e lm="jó"><i>j</i><par n="j/ó__adj"/></e>
+    <e lm="kicsi"><i>ki</i><par n="ki/csi__adj"/></e>
+    <e lm="kis"><i>kis</i><par n="hideg__adj"/></e>
+    <e lm="közel"><i>közel</i><par n="hideg__adj"/></e>
+    <e lm="más"><i>más</i><par n="boldog__adj"/></e>
+    <e lm="meleg"><i>meleg</i><par n="hideg__adj"/></e>
+    <e lm="nagy"><i>nagy</i><par n="nagy__adj"/></e>
+    <e lm="szép"><i>szé</i><par n="szé/p__adj"/></e>
+    <e lm="vén"><i>vén</i><par n="hideg__adj"/></e>
+
+    <e lm="ötéves"><i>ötéves</i><par n="éves__adj"/></e>
+    <e lm="hatéves"><i>hatéves</i><par n="éves__adj"/></e>
+
+    <!-- SECTION: Adverbs -->
+
+
+    <e lm="gyorsan"><i>gyorsa</i><par n="lassa/n__adv"/></e>
+    <e lm="jól"><i>j</i><par n="j/ól__adv"/></e>
+    <e lm="lassan"><i>lassa</i><par n="lassa/n__adv"/></e>
+    <e lm="nagyon"><i></i><par n="/nagyon__adv"/></e>
+
+    <e lm="akkor"><i>akkor</i><par n="tegnap__adv"/></e>
+    <e lm="aztán"><i>aztán</i><par n="tegnap__adv"/></e>
+    <e lm="csak"><i>csak</i><par n="tegnap__adv"/></e>
+    <e lm="de"><i>de</i><par n="tegnap__adv"/></e>
+    <e lm="együtt"><i>együtt</i><par n="tegnap__adv"/></e>
+    <e lm="figyelmesen"><i>figyelmesen</i><par n="tegnap__adv"/></e>
+    <e lm="is"><i>is</i><par n="tegnap__adv"/></e>
+    <e lm="ide"><i>ide</i><par n="tegnap__adv"/></e>
+    <e lm="ideje"><i>ideje</i><par n="tegnap__adv"/></e>
+    <e lm="itt"><i>itt</i><par n="tegnap__adv"/></e>
+    <e lm="ma"><i>ma</i><par n="tegnap__adv"/></e>
+    <e lm="még"><i>még</i><par n="tegnap__adv"/></e>
+    <e lm="meg"><i>megint</i><par n="tegnap__adv"/></e>
+    <e lm="mindenhova"><i>mindenhova</i><par n="tegnap__adv"/></e>
+    <e lm="mindenhová"><i>mindenhová</i><par n="tegnap__adv"/></e>
+    <e lm="mindig"><i>mindig</i><par n="tegnap__adv"/></e>
+    <e lm="mindketten"><i>mindketten</i><par n="tegnap__adv"/></e>
+    <e lm="most"><i>most</i><par n="tegnap__adv"/></e>
+    <e lm="nem"><i>nem</i><par n="tegnap__adv"/></e>
+    <e lm="ott"><i>ott</i><par n="tegnap__adv"/></e>
+    <e lm="persze"><i>persze</i><par n="tegnap__adv"/></e>
+    <e lm="tegnap"><i>tegnap</i><par n="tegnap__adv"/></e>
+    <e lm="valószínűleg"><i>valószínűleg</i><par n="tegnap__adv"/></e>
+    <e lm="odakint"><i>odakint</i><par n="tegnap__adv"/></e>
+    <e lm="soha"><i>soha</i><par n="tegnap__adv"/></e>
+
+    <!-- proadverbs -->
+
+    <e lm="így"><i>így</i><par n="tegnap__adv"/></e>
+
+    <!-- interrogatives -->
+
+    <e lm="hol"><i>hol</i><par n="hol__adv"/></e>
+    <e lm="hova"><i>hova</i><par n="hol__adv"/></e>
+    <e lm="hová"><i>hová</i><par n="hol__adv"/></e>
+    <e lm="miért"><i>miért</i><par n="hol__adv"/></e>
+    <e lm="mit"><i>mit</i><par n="hol__adv"/></e>
+    <e lm="merre"><i>merre</i><par n="hol__adv"/></e>
+    <e lm="mikor"><i>mikor</i><par n="hol__adv"/></e>
+
+    <!-- SECTION: Verbs -->
+
+    <e lm="megvan"><i>meg</i><par n="/van__vbser"/></e>
+    <e lm="van"><i></i><par n="/van__vbser"/></e>
+    
+    <e lm="alszik"><i>alsz</i><par n="játsz/ik__vblex"/></e>
+    <e lm="akar"><i>akar</i><par n="imád__vblex"/></e>
+    <e lm="befejéz"><i>befejéz</i><par n="néz__vblex"/></e>
+    <e lm="benéz"><i>benéz</i><par n="néz__vblex"/></e>
+    <e lm="beszél"><i>beszél</i><par n="néz__vblex"/></e>
+    <e lm="beszélget"><i>beszélget</i><par n="néz__vblex"/></e>
+    <e lm="befejezés"><i>befejez</i><par n="szeret__vblex"/></e>
+    <e lm="bújik"><i>búj</i><par n="játsz/ik__vblex"/></e>
+    <e lm="csinál"><i>csinál</i><par n="imád__vblex"/></e>
+    <e lm="elbújik"><i>elbúj</i><par n="játsz/ik__vblex"/></e>
+    <e lm="eszik"><i>e</i><par n="e/szik__vblex"/></e>
+    <e lm="fejéz"><i>fejéz</i><par n="néz__vblex"/></e>
+    <e lm="hall"><i>hall</i><par n="tart__vblex"/></e>
+    <e lm="hallgat"><i>hallgat</i><par n="tart__vblex"/></e>
+    <e lm="hisz"><i>hisz</i><par n="néz__vblex"/></e>
+    <e lm="imád"><i>imád</i><par n="imád__vblex"/></e>
+    <e lm="iszik"><i>i</i><par n="i/szik__vblex"/></e>
+    <e lm="játszik"><i>játsz</i><par n="játsz/ik__vblex"/></e>
+    <e lm="jön"><i>jö</i><par n="jö/n__vblex"/></e>
+    <e lm="kap"><i>kap</i><par n="imád__vblex"/></e>
+    <e lm="kinéz"><i>kinéz</i><par n="néz__vblex"/></e>
+    <e lm="keres"><i>keres</i><par n="néz__vblex"/></e>
+    <e lm="kérdez"><i>kérdez</i><par n="néz__vblex"/></e>
+    <e lm="körülnéz"><i>körülnéz</i><par n="néz__vblex"/></e>
+    <e lm="lát"><i>lát</i><par n="lát__vblex"/></e>
+    <e lm="nevet"><i>nevet</i><par n="néz__vblex"/></e>
+    <e lm="megkérdez"><i>megkérdez</i><par n="néz__vblex"/></e>
+    <e lm="megmond"><i>megmond</i><par n="tart__vblex"/></e>
+    <e lm="megtalál"><i>megtalál</i><par n="imád__vblex"/></e>
+    <e lm="megy"><i>me</i><par n="me/gy__vblex"/></e>
+    <e lm="mond"><i>mond</i><par n="tart__vblex"/></e>
+    <e lm="néz"><i>néz</i><par n="néz__vblex"/></e>
+    <e lm="próbál"><i>próbál</i><par n="imád__vblex"/></e>
+    <e lm="szalad"><i>szalad</i><par n="imád__vblex"/></e>
+    <e lm="számol"><i>számol</i><par n="imád__vblex"/></e>
+    <e lm="szeret"><i>szeret</i><par n="szeret__vblex"/></e>
+    <e lm="sétál"><i>sétál</i><par n="imád__vblex"/></e>
+    <e lm="tart"><i>tart</i><par n="tart__vblex"/></e>
+    <e lm="talál"><i>talál</i><par n="imád__vblex"/></e>
+    <e lm="tud"><i>tud</i><par n="imád__vblex"/></e>
+    <e lm="ül"><i>ül</i><par n="néz__vblex"/></e>
+    <e lm="válasz"><i>válasz</i><par n="imád__vblex"/></e>
+    <e lm="válaszol"><i>válaszol</i><par n="imád__vblex"/></e>
+    <e lm="végigsétál"><i>végigsétál</i><par n="imád__vblex"/></e>
+
+    <!-- SECTION: Interjections -->
+
+    <e lm="nem"><i>nem</i><par n="nem__ij"/></e>
+    <e lm="igen"><i>igen</i><par n="nem__ij"/></e>
+    <e lm="nincs"><i>nincs</i><par n="nem__ij"/></e>
+  </section>
+
+
+</dictionary>
+<!-- vim: set ft=xml: -->
